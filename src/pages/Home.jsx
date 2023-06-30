@@ -1,17 +1,11 @@
-import Header from "../components/Header";
-import Banner from "../components/Banner";
-import CardList from "../components/CardList";
-import Promotion from "../components/Promotion";
-import Footer from "../components/Footer";
+import Banner from "../components/Home/Banner";
+import CardList from "../components/Home/CardList";
 
 const Home = () => {
   return (
     <div>
-      <Header />
       <Banner />
       <CardList />
-      <Promotion />
-      <Footer />
     </div>
   );
 };

@@ -1,0 +1,14 @@
+button {
+  cursor: pointer;
+}
+.bannerBtn {
+  border: none;
+  background-color: #814f98;
+  color: white;
+  width: 130px;
+  padding: 1rem;
+}
+
+.bannerBtn a {
+  color: white;
+}
