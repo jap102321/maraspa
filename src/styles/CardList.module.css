@@ -1,0 +1,27 @@
+.cardList {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-block-start: 1rem;
+}
+
+.title {
+  text-align: center;
+  max-width: 250px;
+}
+
+.title h1 {
+  color: black;
+  font-family: "Parisienne", cursive;
+}
+.title h3 {
+  font-weight: 400;
+}
+
+.cards {
+  margin-block-start: 1rem;
+  display: flex;
+  flex-direction: row;
+  gap: 5rem;
+}

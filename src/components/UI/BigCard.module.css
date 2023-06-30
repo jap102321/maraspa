@@ -1,0 +1,29 @@
+.card {
+  height: 291px;
+  width: 250px;
+  position: relative;
+  margin-block-end: 10rem;
+  background-size: cover;
+}
+
+.card h5 {
+  color: black;
+  font-family: "Parisienne", cursive;
+  font-size: 20px;
+}
+.card p {
+  text-align: center;
+}
+.descCard {
+  background-color: #e3b7d6;
+  height: 150px;
+  width: 190px;
+  position: absolute;
+  bottom: -70px;
+  right: 30px;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}

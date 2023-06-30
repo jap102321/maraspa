@@ -14,7 +14,9 @@ const GlobalStyle = createGlobalStyle`
 }
 a{
   text-decoration:none;
-
+}
+body{
+  background-color: #F8F8F8;
 }
 `;
 

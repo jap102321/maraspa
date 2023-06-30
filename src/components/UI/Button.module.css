@@ -1,6 +1,11 @@
 button {
   cursor: pointer;
 }
+
+button:hover {
+  transform: scale(1.1);
+  transition: 0.3s;
+}
 .bannerBtn {
   border: none;
   background-color: #814f98;
@@ -11,4 +16,13 @@ button {
 
 .bannerBtn a {
   color: white;
+}
+
+.cardButton {
+  width: 110px;
+  background-color: #8fadaa;
+  color: #000;
+  border: none;
+  border-radius: 5px;
+  padding-block: 3px;
 }

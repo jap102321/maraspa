@@ -1,0 +1,30 @@
+.footer {
+  display: flex;
+  padding-inline: 1rem;
+
+  justify-content: space-between;
+  align-items: center;
+  border-block-start: 1px solid black;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+.nav img {
+  height: 150px;
+}
+
+.nav ul {
+  margin-block-start: 1.1rem;
+  list-style: none;
+}
+.nav li {
+  margin-block-start: -5px;
+}
+.nav a {
+  color: black;
+  font-size: 12px;
+}
