@@ -18,14 +18,20 @@
 .subtitle {
   text-align: center;
 }
-h1 {
+.title h1 {
   font-family: "Parisienne", cursive;
   font-size: 36px;
   font-weight: 400;
   color: white;
 }
 
-h2 {
+.title h2 {
   font-weight: 400;
+  color: white;
+}
+
+.subtitle h2 {
+  font-weight: 400;
+
   color: white;
 }

@@ -1,6 +1,6 @@
 .promotion {
   display: flex;
-  height: 330px;
+  height: 260px;
   width: 100%;
   background-color: #814f98;
 }
@@ -18,10 +18,18 @@
   width: 50%;
 }
 
-.promo h1,
-h3 {
+.promo h2 {
   color: white;
-  font-family: "Nunito", sans-serif;
+  font-weight: normal;
+}
+.description h3 {
+  color: white;
+  font-weight: normal;
+}
+
+.otherInfo h3 {
+  color: white;
+  font-weight: normal;
 }
 
 .otherInfo {

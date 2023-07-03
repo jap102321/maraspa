@@ -33,3 +33,12 @@ button:hover {
   background-color: #d9d9d9;
   border-radius: 5px;
 }
+
+.serviceCard {
+  width: 150px;
+  background-color: #8fadaa;
+  color: #000;
+  border: none;
+  border-radius: 5px;
+  padding: 1rem;
+}

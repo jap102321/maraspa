@@ -1,0 +1,23 @@
+.smallCard {
+  display: flex;
+  width: 300px;
+  height: 255px;
+  background-size: cover;
+  background-position: bottom;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+}
+
+.smallCard p {
+  color: white;
+  text-align: center;
+  top: 50%;
+  right: 40%;
+  font-size: 24px;
+}
+
+.smallCard:hover {
+  transform: scale(1.1);
+  transition: 0.5s;
+}

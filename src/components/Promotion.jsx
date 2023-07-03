@@ -8,10 +8,10 @@ const Promotion = () => {
       <div className={styles.promotion}>
         <img src={imgPromo} />
         <div className={styles.promo}>
-          <h1>Promoción Julio</h1>
+          <h2>Promoción Julio</h2>
           <div className={styles.description}>
-            <h2>Válido hasta: 15 Julio 2023</h2>
-            <h2>Aprovecha esta promoción que tenemos de julio</h2>
+            <h3>Válido hasta: 15 Julio 2023</h3>
+            <h3>Aprovecha esta promoción que tenemos de julio</h3>
           </div>
           <div className={styles.otherInfo}>
             <h3>Costo de 130.000$</h3>
