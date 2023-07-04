@@ -1,12 +1,17 @@
 import Button from "../../components/UI/Button";
 import styles from "./ServiceCard.module.css";
+import { FaClock } from "react-icons/fa";
+
 const ServiceCard = ({ title, price, description, duration }) => {
   return (
     <>
-      <div className={styles.card}>
+      <div className={styles.card} data-aos="zoom-in-up">
         <div className={styles.mainInfo}>
           <h2>{title}</h2>
-          <h3>{duration}</h3>
+          <h3 style={{ display: "flex", alignItems: "center", gap: "5px" }}>
+            <FaClock />
+            {duration}
+          </h3>
           <p>{description}</p>
         </div>
         <div className={styles.costs}>

@@ -3,7 +3,13 @@ import card1 from "../assets/Imagenes/cardservice1.jpg";
 import card2 from "../assets/Imagenes/cardservice2.jpg";
 import card3 from "../assets/Imagenes/cardservice3.jpg";
 import SmallCard from "../components/UI/SmallCard";
+import { useEffect } from "react";
+
 const Services = () => {
+  useEffect(() => {
+    window.scrollTo({ top: 0, left: 0, behavior: "smooth" });
+  }, []);
+
   const services = [
     {
       bg: card1,
@@ -46,7 +52,7 @@ const Services = () => {
       </div>
       <div className={styles.ourServices}>
         <h1>Nuestros servicios</h1>
-        <div className={styles.services}>
+        <div className={styles.services} data-aos="flip-down">
           {services.map((data) => {
             return (
               <SmallCard

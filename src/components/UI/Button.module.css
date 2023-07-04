@@ -42,3 +42,10 @@ button:hover {
   border-radius: 5px;
   padding: 1rem;
 }
+
+.priceButton {
+  padding: 1rem;
+  width: 210px;
+  background-color: #e3b7d6;
+  border: none;
+}

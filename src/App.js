@@ -1,4 +1,5 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { useEffect } from "react";
 import Home from "./pages/Home";
 import { createGlobalStyle } from "styled-components";
 import Header from "./components/Header";
@@ -7,6 +8,7 @@ import Footer from "./components/Footer";
 import BonoRegalo from "./pages/BonoRegalo";
 import Services from "./pages/Services";
 import Service from "./pages/Service/Service";
+import Contact from "./pages/Contact";
 const GlobalStyle = createGlobalStyle`
 *{
   box-sizing: border-box;
@@ -38,7 +40,7 @@ function App() {
           <Route path="/services/packages" element={<Service />} />
           <Route path="/services/massages" element={<Service />} />
           <Route path="/instalations" />
-          <Route path="/contact" />
+          <Route path="/contact" element={<Contact />} />
           <Route path="*" />
         </Routes>
         <Promotion />

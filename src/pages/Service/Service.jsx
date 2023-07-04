@@ -20,12 +20,12 @@ const Service = () => {
   }, [url]);
 
   return (
-    <>
+    <div>
       {service.map((data) => {
         return (
           <div className={style.specificService} key={data.title}>
             <h1>{data.title}</h1>
-            <p>{data.description}</p>
+            <p style={{ textAlign: "center" }}>{data.description}</p>
             <div className={style.servicesDesc}>
               {data.servicios.map((data) => {
                 return (
@@ -42,7 +42,7 @@ const Service = () => {
           </div>
         );
       })}
-    </>
+    </div>
   );
 };
 

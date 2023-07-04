@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 const Promotion = () => {
   return (
     <>
-      <div className={styles.promotion}>
+      <div className={styles.promotion} data-aos="zoom-in-up">
         <img src={imgPromo} />
         <div className={styles.promo}>
           <h2>Promoción Julio</h2>

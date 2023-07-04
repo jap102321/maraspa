@@ -9,7 +9,7 @@ export const serviceLimpieza = [
         duration: "1 hora",
         description:
           "Descubre nuestra sección de cuidado facial, donde proporcionamos una experiencia completa para obtener una piel radiante y saludable. Preparamos tu piel, la hidratamos intensamente y realizamos una exfoliación seguida de vaporozono. Realizamos una extracción suave y utilizamos la alta frecuencia para desinfectar la piel. Aplicamos una mascarilla de arcilla purificante y, finalmente, protegemos tu piel con una capa de protección solar. ¡Disfruta de una experiencia rejuvenecedora y una piel hermosa!",
-        price: "$100000.",
+        price: "100.000$.",
       },
       {
         title: "Hidratación de colageno",

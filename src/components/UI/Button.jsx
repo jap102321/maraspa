@@ -7,7 +7,7 @@ const Button = ({ title, theme }) => {
   // useEffect to set theme based on prop
   useEffect(() => {
     setTheme(theme);
-  });
+  }, [theme]);
 
   //set style to the theme
   const stylingTest = styles[thema];

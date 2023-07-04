@@ -1,0 +1,43 @@
+.contact {
+  margin-block-end: 3.3rem;
+}
+
+.banner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-block-end: 5rem;
+  background-image: url();
+}
+
+.banner h2 {
+  font-family: "Parisienne", sans-serif;
+}
+
+.infoDiv {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10rem;
+}
+
+.map {
+  margin-block-end: 6rem;
+}
+
+.infoDiv h2 {
+  margin-block-end: 2rem;
+}
+
+.infoText {
+  line-height: 24px;
+  width: 40%;
+}
+
+.infoIcons {
+  margin-block-start: 2.5rem;
+}
+
+.infoIcons button {
+  margin-block-start: 1rem;
+}
