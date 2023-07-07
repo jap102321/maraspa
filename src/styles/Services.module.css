@@ -57,6 +57,9 @@ h4 {
     flex-wrap: wrap;
     gap: 1rem;
   }
+  .specificService {
+    margin-block-start: 2rem;
+  }
 }
 
 @media (max-width: 768px) {

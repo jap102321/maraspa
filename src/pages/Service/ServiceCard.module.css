@@ -31,3 +31,21 @@
   margin-block-start: 2.5rem;
   color: #f6f6f6;
 }
+
+@media (max-width: 950px) {
+  .card {
+    inline-size: 600px;
+  }
+}
+
+@media (max-width: 620px) {
+  .card {
+    inline-size: 450px;
+  }
+}
+
+@media (max-width: 506px) {
+  .card {
+    inline-size: 320px;
+  }
+}
