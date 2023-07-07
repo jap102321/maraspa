@@ -1,7 +1,7 @@
 import styles from "../styles/Services.module.css";
-import card1 from "../assets/Imagenes/cardservice1.jpg";
-import card2 from "../assets/Imagenes/cardservice2.jpg";
-import card3 from "../assets/Imagenes/cardservice3.jpg";
+import card1 from "../assets/Imagenes/cardservice1.webp";
+import card2 from "../assets/Imagenes/cardservice2.webp";
+import card3 from "../assets/Imagenes/cardservice3.webp";
 import SmallCard from "../components/UI/SmallCard";
 import { useEffect } from "react";
 

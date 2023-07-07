@@ -1,8 +1,8 @@
 import styles from "../../styles/CardList.module.css";
 import BigCard from "../UI/BigCard";
-import card1 from "../../assets/Imagenes/card1.jpg";
-import card2 from "../../assets/Imagenes/card2.jpg";
-import card3 from "../../assets/Imagenes/card3.jpg";
+import card1 from "../../assets/Imagenes/card1.webp";
+import card2 from "../../assets/Imagenes/card2.webp";
+import card3 from "../../assets/Imagenes/card3.webp";
 
 const CardList = () => {
   return (

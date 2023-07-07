@@ -5,7 +5,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-image: url("/src/assets/Imagenes/bg.jpg");
+  background-image: url("/src/assets/Imagenes/bg.webp");
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center;

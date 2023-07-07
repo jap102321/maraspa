@@ -1,7 +1,6 @@
 import Button from "../components/UI/Button";
 import styles from "../styles/Contact.module.css";
-import { GiPositionMarker } from "react-icons/gi";
-import { AiOutlineMail } from "react-icons/ai";
+
 import { Link } from "react-router-dom";
 import { useEffect } from "react";
 const Contact = () => {
@@ -47,22 +46,10 @@ const Contact = () => {
             </p>
             <div className={styles.infoIcons}>
               <p>
-                <GiPositionMarker
-                  style={{
-                    fontSize: "24px",
-                  }}
-                />
                 Centro Comercial Plaza Linares, piso 2, local 22 Via a, Llano
                 Grande, Rionegro, Antioquia
               </p>
-              <p>
-                <AiOutlineMail
-                  style={{
-                    fontSize: "24px",
-                  }}
-                />
-                maraspa1025@gmail.com
-              </p>
+              <p>maraspa1025@gmail.com</p>
               <a
                 href="https://api.whatsapp.com/send/?phone=573135630771&text&type=phone_number&app_absent=0"
                 target="_blank"
