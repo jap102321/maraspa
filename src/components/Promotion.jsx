@@ -1,5 +1,5 @@
 import styles from "../styles/Promotion.module.css";
-import imgPromo from "../assets/Imagenes/promo.jpg";
+import imgPromo from "../assets/Imagenes/promo.webp";
 import Button from "./UI/Button";
 import { Link } from "react-router-dom";
 const Promotion = () => {
