@@ -17,7 +17,7 @@ const Contact = () => {
           data-aos="fade-up"
           data-aos-anchor-placement="top-bottom"
         >
-          <h2>MaraSpa</h2>
+          <h2 style={{ color: "white" }}>MaraSpa</h2>
           <h1>Contacto</h1>
           <p>Estamos listos para atenderlo</p>
           <Link to="/services">
@@ -63,7 +63,10 @@ const Contact = () => {
                 />
                 maraspa1025@gmail.com
               </p>
-              <a href="https://api.whatsapp.com/send/?phone=573135630771&text&type=phone_number&app_absent=0">
+              <a
+                href="https://api.whatsapp.com/send/?phone=573135630771&text&type=phone_number&app_absent=0"
+                target="_blank"
+              >
                 <Button title="Número para contactarnos" theme="priceButton" />
               </a>
             </div>

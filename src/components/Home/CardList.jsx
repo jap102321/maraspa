@@ -7,7 +7,7 @@ import card3 from "../../assets/Imagenes/card3.jpg";
 const CardList = () => {
   return (
     <>
-      <div className={styles.cardList} data-aos="fade-left">
+      <div className={styles.cardList} data-aos="fade-right">
         <div className={styles.title}>
           <h1>Respira</h1>
           <p>Regálate un momento para ti o para los que más quieres</p>

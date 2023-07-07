@@ -1,37 +1,32 @@
 .banner {
+  position: relative;
   display: flex;
-  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  margin-block-start: 3rem;
+}
+
+.description {
+  text-align: center;
+  display: flex;
   flex-direction: column;
-  padding: 1rem;
-  width: 100%;
-  height: 450px;
-  background-image: url("../assets/Imagenes/banner.jpg");
-  background-position: bottom;
-  background-repeat: no-repeat;
-  background-size: cover;
-  justify-content: space-around;
-}
-.title {
-  margin-block-start: -2rem;
-  text-align: center;
-}
-.subtitle {
-  text-align: center;
-}
-.title h1 {
-  font-family: "Parisienne", cursive;
-  font-size: 36px;
-  font-weight: 400;
-  color: white;
+  align-items: center;
+  position: absolute;
+  left: 80px;
+  top: 20px;
+  background-color: #5e5c5d;
+  inline-size: 400px;
+  padding: 48px;
+  border-radius: 5px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2), 0px 4px 8px rgba(0, 0, 0, 0.2),
+    0px 8px 16px rgba(0, 0, 0, 0.2), 0px 16px 32px rgba(0, 0, 0, 0.2);
 }
 
-.title h2 {
-  font-weight: 400;
-  color: white;
+.bgImage {
+  width: 930px;
+  height: 550px;
 }
 
-.subtitle h2 {
-  font-weight: 400;
-
-  color: white;
+.description button {
+  margin-block-start: 2rem;
 }

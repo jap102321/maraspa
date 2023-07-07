@@ -6,7 +6,7 @@ const Promotion = () => {
   return (
     <>
       <div className={styles.promotion} data-aos="zoom-in-up">
-        <img src={imgPromo} />
+        <img src={imgPromo} alt="Image promo" />
         <div className={styles.promo}>
           <h2>Promoción Julio</h2>
           <div className={styles.description}>

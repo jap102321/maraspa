@@ -9,7 +9,10 @@ import BonoRegalo from "./pages/BonoRegalo";
 import Services from "./pages/Services";
 import Service from "./pages/Service/Service";
 import Contact from "./pages/Contact";
+import Instalations from "./pages/Instalations";
+
 const GlobalStyle = createGlobalStyle`
+
 *{
   box-sizing: border-box;
   margin: 0;
@@ -20,9 +23,7 @@ a{
   text-decoration:none;
 }
 
-body{
-  background-color: #F8F8F8;
-}
+
 
 `;
 
@@ -39,7 +40,7 @@ function App() {
           <Route path="/services/facial-clean" element={<Service />} />
           <Route path="/services/packages" element={<Service />} />
           <Route path="/services/massages" element={<Service />} />
-          <Route path="/instalations" />
+          <Route path="/instalations" element={<Instalations />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="*" />
         </Routes>
