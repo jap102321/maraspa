@@ -17,7 +17,11 @@ const Header = () => {
       <Container className={styles.container}>
         <Navbar.Brand>
           <Link to="/">
-            <img src={Logo} style={{ width: "150px" }} alt="MaraSpa Logo" />
+            <img
+              src={Logo}
+              style={{ width: "150px", height: "150px" }}
+              alt="MaraSpa Logo"
+            />
           </Link>
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />

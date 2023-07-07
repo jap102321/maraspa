@@ -6,7 +6,7 @@ const Footer = () => {
     <>
       <footer className={styles.footer}>
         <div className={styles.nav}>
-          <img src={Logo} alt="Logo" />
+          <img src={Logo} alt="Logo" width="150px" height="150px" />
           <ul>
             <li>
               <Link to="/giftbono">Bono de regalo</Link>

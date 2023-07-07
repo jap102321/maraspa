@@ -1,6 +1,5 @@
 import styles from "../../styles/Banner.module.css";
 import Button from "../UI/Button";
-import BgImage from "../../assets/Imagenes/banner2.webp";
 import { Link } from "react-router-dom";
 
 const Banner = () => {
