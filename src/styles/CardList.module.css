@@ -25,3 +25,14 @@
   flex-direction: row;
   gap: 5rem;
 }
+
+/* Responsive */
+
+@media (max-width: 950px) {
+  .cards {
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 1rem;
+  }
+}

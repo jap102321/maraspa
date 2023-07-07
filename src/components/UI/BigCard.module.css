@@ -28,3 +28,29 @@
   align-items: center;
   justify-content: space-between;
 }
+
+@media (max-width: 950px) {
+  .card {
+    margin-block-end: 1rem;
+  }
+  .descCard {
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    bottom: 70px;
+    text-align: center;
+  }
+}
+
+@media (max-width: 768px) {
+  .descCard {
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    text-align: center;
+  }
+}

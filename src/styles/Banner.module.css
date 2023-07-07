@@ -30,3 +30,40 @@
 .description button {
   margin-block-start: 2rem;
 }
+
+/* Responsive */
+
+@media (max-width: 950px) {
+  .bgImage {
+    inline-size: 100%;
+  }
+  .description {
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    bottom: 30px;
+    text-align: center;
+  }
+}
+
+@media (max-width: 768px) {
+  .description {
+    inline-size: 90%;
+
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    text-align: center;
+  }
+}
+
+@media (max-width: 400px) {
+  .description {
+    inline-size: 90%;
+    block-size: 95%;
+  }
+}

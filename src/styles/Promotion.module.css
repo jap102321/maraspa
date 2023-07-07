@@ -37,3 +37,21 @@
   flex-direction: column;
   gap: 2rem;
 }
+
+/* Responsive */
+
+@media (max-width: 768px) {
+  .promotion {
+    padding-block: 0.5rem;
+    justify-content: center;
+  }
+  .description #description {
+    font-size: 15px;
+  }
+  .promotion img {
+    display: none;
+  }
+  .otherInfo {
+    gap: 0;
+  }
+}

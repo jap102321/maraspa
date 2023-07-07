@@ -11,7 +11,9 @@ const Promotion = () => {
           <h2>Promoción Julio</h2>
           <div className={styles.description}>
             <h3>Válido hasta: 15 Julio 2023</h3>
-            <h3>Aprovecha esta promoción que tenemos de julio</h3>
+            <h3 id={styles.description}>
+              Aprovecha esta promoción que tenemos de julio
+            </h3>
           </div>
           <div className={styles.otherInfo}>
             <h3>Costo de 130.000$</h3>

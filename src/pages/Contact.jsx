@@ -46,7 +46,7 @@ const Contact = () => {
               se merece!
             </p>
             <div className={styles.infoIcons}>
-              <p style={{ display: "flex", alignItems: "center" }}>
+              <p>
                 <GiPositionMarker
                   style={{
                     fontSize: "24px",
@@ -55,7 +55,7 @@ const Contact = () => {
                 Centro Comercial Plaza Linares, piso 2, local 22 Via a, Llano
                 Grande, Rionegro, Antioquia
               </p>
-              <p style={{ display: "flex", alignItems: "center" }}>
+              <p>
                 <AiOutlineMail
                   style={{
                     fontSize: "24px",
@@ -78,8 +78,6 @@ const Contact = () => {
           >
             <iframe
               src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15867.951445425622!2d-75.4015116!3d6.1323326!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e469ec5111fd8e7%3A0x7d4badb99c36dbc5!2sMara%20Spa!5e0!3m2!1sen!2sco!4v1688134309954!5m2!1sen!2sco"
-              width="440"
-              height="220"
               style={{ border: 0 }}
               loading="lazy"
             ></iframe>

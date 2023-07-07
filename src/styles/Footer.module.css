@@ -28,3 +28,21 @@
   color: black;
   font-size: 12px;
 }
+
+/* Responsive */
+
+@media (max-width: 768px) {
+  .footer {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .nav {
+    gap: 0;
+  }
+  .nav ul {
+    padding: 15px;
+  }
+  .nav iframe {
+    width: 150px;
+  }
+}

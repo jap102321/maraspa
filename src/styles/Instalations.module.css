@@ -11,6 +11,18 @@
   max-width: 600px;
 }
 .video iframe {
-  width: 911px;
-  height: 600px;
+}
+
+@media (max-width: 950px) {
+  .video iframe {
+    width: 700px;
+    height: 500px;
+  }
+}
+
+@media (max-width: 768px) {
+  .video iframe {
+    width: 350px;
+    height: 300px;
+  }
 }

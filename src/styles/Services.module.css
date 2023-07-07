@@ -47,3 +47,20 @@ h4 {
   align-items: center;
   justify-content: center;
 }
+
+/* Responsive */
+
+@media (max-width: 950px) {
+  .services {
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 1rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .services {
+    flex-direction: column;
+  }
+}
