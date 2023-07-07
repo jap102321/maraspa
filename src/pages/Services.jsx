@@ -28,17 +28,6 @@ const Services = () => {
     },
   ];
 
-  const reseña = [
-    {
-      reviewer: "",
-      review: "",
-    },
-    {
-      reviewer: "",
-      review: "",
-    },
-  ];
-
   return (
     <div className={styles.servicesContainer}>
       <div className={styles.title}>

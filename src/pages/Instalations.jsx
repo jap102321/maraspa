@@ -17,8 +17,8 @@ const Instalations = () => {
         <div className={styles.video}>
           <iframe
             src="https://www.youtube.com/embed/gRzn_zM2YWY"
-            title=""
             frameBorder="0"
+            title="Video instalaciones MaraSpa"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
             allowFullScreen
           ></iframe>

@@ -41,6 +41,7 @@ const BonoRegalo = () => {
         <a
           target="_blank"
           href="https://api.whatsapp.com/send/?phone=573135630771&text&type=phone_number&app_absent=0"
+          rel="noreferrer"
         >
           <Button title="Más información" theme="giftButton" />
         </a>

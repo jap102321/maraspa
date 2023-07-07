@@ -29,6 +29,7 @@ const Footer = () => {
             height="120"
             style={{ border: 0 }}
             loading="lazy"
+            title="Google Maps para referencia MaraSpa"
           ></iframe>
         </div>
       </footer>

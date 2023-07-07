@@ -6,7 +6,6 @@ import ServiceCard from "./ServiceCard";
 
 const Service = () => {
   const [service, setService] = useState([]);
-  const [loading, setLoading] = useState(true);
   const url = useLocation().pathname;
 
   useEffect(() => {

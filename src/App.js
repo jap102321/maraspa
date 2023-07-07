@@ -1,5 +1,4 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import { useEffect } from "react";
 import Home from "./pages/Home";
 import { createGlobalStyle } from "styled-components";
 import Header from "./components/Header";

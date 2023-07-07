@@ -4,7 +4,7 @@ import Logo from "../assets/logos/logo.webp";
 import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
-import NavDropdown from "react-bootstrap/NavDropdown";
+// import NavDropdown from "react-bootstrap/NavDropdown";
 
 const Header = () => {
   return (
@@ -17,7 +17,7 @@ const Header = () => {
         <div>
           <Navbar.Brand>
             <Link to="/">
-              <img src={Logo} style={{ width: "150px" }} />
+              <img src={Logo} style={{ width: "150px" }} alt="MaraSpa Logo" />
             </Link>
           </Navbar.Brand>
         </div>
@@ -42,25 +42,3 @@ const Header = () => {
 };
 
 export default Header;
-
-{
-  /* <ul className={styles.navbar}>
-<li>
-  <Link to="/" className={styles.current}>
-    Inicio
-  </Link>
-</li>
-<li>
-  <Link to="/giftbono">Bono de regalo</Link>
-</li>
-<li>
-  <Link to="/services">Servicios</Link>
-</li>
-<li>
-  <Link to="/instalations">Instalaciones</Link>
-</li>
-<li>
-  <Link to="/contact">Contactanos</Link>
-</li>
-</ul> */
-}

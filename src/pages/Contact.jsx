@@ -66,6 +66,7 @@ const Contact = () => {
               <a
                 href="https://api.whatsapp.com/send/?phone=573135630771&text&type=phone_number&app_absent=0"
                 target="_blank"
+                rel="noreferrer"
               >
                 <Button title="Número para contactarnos" theme="priceButton" />
               </a>
@@ -80,6 +81,7 @@ const Contact = () => {
               src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15867.951445425622!2d-75.4015116!3d6.1323326!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e469ec5111fd8e7%3A0x7d4badb99c36dbc5!2sMara%20Spa!5e0!3m2!1sen!2sco!4v1688134309954!5m2!1sen!2sco"
               style={{ border: 0 }}
               loading="lazy"
+              title="Google Maps para referencia MaraSpa en pág contacto"
             ></iframe>
           </div>
         </div>

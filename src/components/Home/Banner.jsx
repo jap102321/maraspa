@@ -21,7 +21,11 @@ const Banner = () => {
             <Button title="Servicios" theme="bannerBtn" data-aos="fade-left" />
           </Link>
         </div>
-        <img className={styles.bgImage} src={BgImage} alt="Banner image" />
+        <img
+          className={styles.bgImage}
+          src={BgImage}
+          alt="Gente disfrutando relajación con un masaje de piedras volcanicas"
+        />
       </div>
     </>
   );
