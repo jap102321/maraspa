@@ -25,6 +25,9 @@
 .bgImage {
   width: 930px;
   height: 650px;
+  background-image: url(/src/assets/Imagenes/banner2.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .description button {
@@ -51,7 +54,6 @@
 @media (max-width: 768px) {
   .description {
     inline-size: 90%;
-
     position: absolute;
     margin-left: auto;
     margin-right: auto;
@@ -62,6 +64,9 @@
 }
 
 @media (max-width: 400px) {
+  .bgImage {
+    width: 20%;
+  }
   .description {
     inline-size: 90%;
     block-size: 95%;
