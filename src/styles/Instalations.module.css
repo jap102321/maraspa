@@ -11,6 +11,8 @@
   max-width: 600px;
 }
 .video iframe {
+  width: 700px;
+  height: 500px;
 }
 
 @media (max-width: 950px) {

@@ -2,8 +2,13 @@
   color: black;
 }
 .container {
-  width: 100%;
   display: flex;
   justify-content: space-between;
   padding-inline: 2rem;
+}
+
+@media (max-width: 950px) {
+  .container {
+    display: flex;
+  }
 }

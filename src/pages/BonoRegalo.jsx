@@ -28,7 +28,7 @@ const BonoRegalo = () => {
         <h2>Un bono de regalo</h2>
         <p>
           En MaraSpa valoramos tu experiencia y comodidad. Nuestros bonos de
-          regalo tienen una vigencia de un año para que puedas disfrutarlos a tu
+          regalo tienen una vigencia de un mes para que puedas disfrutarlos a tu
           conveniencia. Si necesitas realizar alguna modificación en tu reserva,
           te ofrecemos la flexibilidad de cancelarla con al menos 24 horas de
           anticipación. Ten en cuenta que el bono no es canjeable por dinero en
