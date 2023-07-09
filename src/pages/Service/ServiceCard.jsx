@@ -16,7 +16,13 @@ const ServiceCard = ({ title, price, description, duration }) => {
         </div>
         <div className={styles.costs}>
           <h3>{price}</h3>
-          <Button title="Solicita tu cita" theme="serviceCard" />
+          <a
+            href="https://api.whatsapp.com/send/?phone=573135630771&text&type=phone_number&app_absent=0"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <Button title="Solicita tu cita" theme="serviceCard" />
+          </a>
         </div>
       </div>
     </>

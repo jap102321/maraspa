@@ -1,6 +1,6 @@
 .card {
   width: 750px;
-  background-image: url("/src/assets/Imagenes/IMG-20230627-WA0032.jpg");
+  background-image: url("/src/assets/Imagenes/serviceBg.webp");
   box-shadow: inset 0 0 0 1000px rgba(129, 79, 152, 0.6);
   margin-block-start: 2.5rem;
   margin-block-end: 2.5rem;
@@ -41,11 +41,20 @@
 @media (max-width: 620px) {
   .card {
     inline-size: 450px;
+    background-position: right top;
+  }
+  .costs {
+    display: flex;
+    flex-direction: column;
   }
 }
 
 @media (max-width: 506px) {
   .card {
     inline-size: 320px;
+  }
+  .costs {
+    display: flex;
+    flex-direction: column;
   }
 }

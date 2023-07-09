@@ -29,7 +29,7 @@ export const servicePackage = [
       "Descubre nuestros paquetes de masaje individual y en pareja para experimentar un momento de relajación y bienestar inigualable. Sumérgete en un oasis de tranquilidad mientras nuestros terapeutas expertos te brindan masajes personalizados que alivian el estrés, relajan los músculos y rejuvenecen tu cuerpo y mente. Ya sea que desees disfrutar de un momento de autodescubrimiento o compartir una experiencia única con tu ser querido, nuestros paquetes de masaje individual y en pareja te ofrecen un viaje rejuvenecedor hacia el equilibrio y la serenidad. ¡Escápate del bullicio de la vida diaria y sumérgete en la indulgencia de nuestros masajes!",
     servicios: [
       {
-        title: "Masaje Reductor Moldeador",
+        title: "Masaje para moldear",
         duration: "10 sesiones",
         description:
           "Descubre nuestro exclusivo paquete de 10 sesiones individuales, diseñado para brindarte una experiencia completa de bienestar. Disfruta de masaje drenaje linfático, madoterapia con baño de cajón, radiofrecuencia, vacumterapia y cavitación en cada sesión. Estos servicios te ayudarán a mejorar la circulación, reducir la celulitis, estimular el colágeno y remodelar el contorno corporal",
@@ -48,7 +48,7 @@ export const servicePackage = [
         duration: "2h:30m",
         description:
           "Comienza con un masaje relajante con piedras volcánicas que aliviará tensiones y te sumergirá en un estado de profundo bienestar. Después, revitaliza tu piel con una exfoliación corporal que dejará tu piel suave y radiante al eliminar las impurezas. Sumérgete en el reconfortante baño de cajón, donde podrás disfrutar de una experiencia relajante y revitalizante. Continúa con una hidratación facial que dejará tu rostro luminoso y rejuvenecido. Y para completar esta experiencia, elige entre deleitarte con un delicioso batido de frutas cargado de nutrientes o disfrutar de una refrescante ensalada de frutas",
-        price: "280.000$ por persona, 480.000$ si es pareja.",
+        price: "280.000$ por persona, 480.000$ por pareja.",
       },
       {
         title: "Paquete en pareja",

@@ -52,23 +52,21 @@
 }
 
 @media (max-width: 768px) {
-  .description {
-    inline-size: 90%;
-    position: absolute;
-    margin-left: auto;
-    margin-right: auto;
-    left: 0;
-    right: 0;
-    text-align: center;
+  .banner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
-}
-
-@media (max-width: 400px) {
   .bgImage {
-    width: 20%;
+    inline-size: 93%;
+    block-size: 300px;
+    background-position: center;
+    border-radius: 12px;
   }
   .description {
-    inline-size: 90%;
-    block-size: 95%;
+    order: 1;
+    position: relative;
+    inline-size: 93%;
+    border-radius: 12px;
   }
 }
