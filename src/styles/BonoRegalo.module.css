@@ -18,7 +18,6 @@
 .moreInfo {
   background-image: url("../assets/Imagenes/card1.webp");
   box-shadow: inset 0 0 0 1000px rgba(129, 79, 152, 0.6);
-
   width: 100%;
   height: 353px;
   background-size: cover;
@@ -49,4 +48,10 @@
 
 .buyData button {
   margin-block-start: 2rem;
+}
+
+@media (max-width: 768px) {
+  .buyData {
+    inline-size: 87%;
+  }
 }

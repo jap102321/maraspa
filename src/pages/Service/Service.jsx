@@ -8,6 +8,7 @@ const Service = () => {
   const [service, setService] = useState([]);
   const url = useLocation().pathname;
 
+  //Setting service list based on URL
   useEffect(() => {
     if (url === "/services/facial-clean") {
       setService(serviceLimpieza);
@@ -32,7 +33,6 @@ const Service = () => {
                     title={data.title}
                     duration={data.duration}
                     description={data.description}
-                    price={data.price}
                     key={data.title}
                   />
                 );

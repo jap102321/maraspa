@@ -20,6 +20,7 @@
   align-items: center;
   justify-content: center;
   gap: 2.5rem;
+  margin-block-end: 1.5rem;
 }
 
 .servicesContainer h1,
@@ -32,7 +33,6 @@ h4 {
 /* In specific service component */
 
 .specificService {
-  margin-block-start: -3rem;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -63,6 +63,13 @@ h4 {
 }
 
 @media (max-width: 768px) {
+  .title {
+    inline-size: 87%;
+  }
+  .specificService {
+    margin: 1.5rem auto;
+    inline-size: 87%;
+  }
   .services {
     flex-direction: column;
   }

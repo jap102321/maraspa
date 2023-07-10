@@ -2,6 +2,8 @@ import styles from "../styles/Services.module.css";
 import card1 from "../assets/Imagenes/cardservice1.webp";
 import card2 from "../assets/Imagenes/cardservice2.webp";
 import card3 from "../assets/Imagenes/cardservice3.webp";
+import card4 from "../assets/Imagenes/moldMasaje.webp";
+import card5 from "../assets/Imagenes/baCajon.webp";
 import SmallCard from "../components/UI/SmallCard";
 import { useEffect } from "react";
 
@@ -28,29 +30,41 @@ const Services = () => {
     },
   ];
 
+  const outstandingServices = [
+    {
+      bg: card5,
+      title: "Baño de cajón",
+      href: "/services/steaming-bath",
+    },
+    {
+      bg: card4,
+      title: "Masaje moldeador",
+      href: "/services/shaping-massage",
+    },
+  ];
+
   return (
     <div className={styles.servicesContainer}>
       <div className={styles.title}>
         <h1>¿Qué podemos hacer por ti?</h1>
         <p>
           En MaraSpa tenemos una gran variedad de servicios, que van desde
-          masajes reductores hasta tratamientos faciales. Sea para ti o sea para
-          un ser que amas, en MaraSpa recibirás una atención impresionante ya
-          sea en un masaje individual o un paquete de masajes.
+          masajes moldeadores hasta tratamientos faciales. Sea para ti o sea
+          para un ser que amas, en MaraSpa recibirás una atención impresionante
+          ya sea en un masaje individual o un paquete de masajes.
         </p>
       </div>
       <div className={styles.ourServices}>
         <h1>Nuestros servicios</h1>
         <div className={styles.services} data-aos="flip-down">
-          {services.map((data) => {
-            return (
-              <SmallCard
-                title={data.title}
-                href={data.href}
-                bg={data.bg}
-                key={data.title}
-              />
-            );
+          {services.map(({ title, href, bg }) => {
+            return <SmallCard title={title} href={href} bg={bg} key={title} />;
+          })}
+        </div>
+        <h1>Destacado</h1>
+        <div className={styles.services} data-aos="flip-down">
+          {outstandingServices.map(({ title, href, bg }) => {
+            return <SmallCard title={title} href={href} bg={bg} key={title} />;
           })}
         </div>
       </div>

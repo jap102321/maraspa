@@ -1,0 +1,39 @@
+.outstandingContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2.5rem;
+  margin-block: 1.5rem;
+}
+
+.outstandingContainer ul > h2 {
+  text-align: center;
+}
+
+.description {
+  text-align: center;
+  max-width: 900px;
+}
+
+.assets iframe {
+  width: 700px;
+  height: 500px;
+}
+
+@media (max-width: 950px) {
+  .assets iframe {
+    width: 700px;
+    height: 500px;
+  }
+}
+
+@media (max-width: 768px) {
+  .outstandingContainer {
+    margin: 1.5rem auto;
+    inline-size: 87%;
+  }
+  .assets iframe {
+    width: 350px;
+    height: 300px;
+  }
+}

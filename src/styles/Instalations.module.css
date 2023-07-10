@@ -16,6 +16,10 @@
 }
 
 @media (max-width: 950px) {
+  .instalations {
+    inline-size: 87%;
+    margin: 1.5rem auto;
+  }
   .video iframe {
     width: 700px;
     height: 500px;
