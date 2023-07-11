@@ -2,7 +2,7 @@ import styles from "../styles/Services.module.css";
 import card1 from "../assets/Imagenes/cardservice1.webp";
 import card2 from "../assets/Imagenes/cardservice2.webp";
 import card3 from "../assets/Imagenes/cardservice3.webp";
-import card4 from "../assets/Imagenes/moldMasaje.webp";
+// import card4 from "../assets/Imagenes/moldMasaje.webp";
 import card5 from "../assets/Imagenes/baCajon.webp";
 import SmallCard from "../components/UI/SmallCard";
 import { useEffect } from "react";
@@ -35,11 +35,6 @@ const Services = () => {
       bg: card5,
       title: "Baño de cajón",
       href: "/services/steaming-bath",
-    },
-    {
-      bg: card4,
-      title: "Masaje moldeador",
-      href: "/services/shaping-massage",
     },
   ];
 

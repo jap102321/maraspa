@@ -19,9 +19,6 @@ const Contact = () => {
           <h2 style={{ color: "white" }}>MaraSpa</h2>
           <h1>Contacto</h1>
           <p>Estamos listos para atenderlo</p>
-          <Link to="/services">
-            <Button title="Precios" theme="priceButton" />
-          </Link>
         </div>
         <div className={styles.infoDiv}>
           <div
