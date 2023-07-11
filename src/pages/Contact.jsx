@@ -1,7 +1,5 @@
 import Button from "../components/UI/Button";
 import styles from "../styles/Contact.module.css";
-
-import { Link } from "react-router-dom";
 import { useEffect } from "react";
 const Contact = () => {
   useEffect(() => {
