@@ -45,6 +45,7 @@ const Contact = () => {
                 Grande, Rionegro, Antioquia
               </p>
               <p>maraspa1025@gmail.com</p>
+              <p>Horario de atención: 7:30AM a 5:00 PM</p>
               <a
                 href="https://api.whatsapp.com/send/?phone=573135630771&text&type=phone_number&app_absent=0"
                 target="_blank"
