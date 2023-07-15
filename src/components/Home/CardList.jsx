@@ -23,7 +23,7 @@ const CardList = () => {
           <BigCard
             bg={card2}
             title="Conoce que ofrecemos"
-            desc="Más de 40 servicios en paquetes"
+            desc="Multiples servicios & paquetes"
             btnDesc="Conócelos"
             btnUrl="/services"
           />
