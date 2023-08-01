@@ -21,15 +21,18 @@
 .promo h2 {
   color: white;
   font-weight: normal;
+  font-size: 20px;
 }
 .description h3 {
   color: white;
   font-weight: normal;
+  font-size: 20px;
 }
 
 .otherInfo h3 {
   color: white;
   font-weight: normal;
+  font-size: 20px;
 }
 
 .otherInfo {
@@ -38,6 +41,10 @@
   gap: 2rem;
 }
 
+.otherInfo button {
+  width: fit-content;
+  padding-inline: 16px;
+}
 /* Responsive */
 
 @media (max-width: 768px) {
