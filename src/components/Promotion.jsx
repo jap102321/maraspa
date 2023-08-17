@@ -10,10 +10,10 @@ const Promotion = () => {
         <div className={styles.promo}>
           <h2>Promoción Agosto</h2>
           <div className={styles.description}>
-            <h3>Válido para 2 personas</h3>
+            <h3>Paga 1 y van 2 personas.</h3>
             <h3 id={styles.description}>
-              Invita a tu persona favorita a un momento de descanso y
-              tranquilidad, por el mes de agosto esta promoción paga uno van dos
+              Masaje relajante con piedras volcanicas, exfoliación corporal y
+              baño de cajón.
             </h3>
           </div>
           <div className={styles.otherInfo}>
