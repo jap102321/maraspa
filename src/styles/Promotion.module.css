@@ -1,15 +1,18 @@
 .promotion {
   display: flex;
-  height: 260px;
+  flex-direction: column;
   width: 100%;
   background-color: #814f98;
+  align-items: center;
 }
 
 .promotion video {
-  width: 100%;
-  justify-content: center;
+  margin: 0 auto;
+  max-width: 300px;
 }
-
+.promotion button {
+  margin-block-start: 0.8rem;
+}
 .promotion img {
   width: 50%;
 }

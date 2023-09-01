@@ -1,13 +1,16 @@
 import styles from '../styles/Promotion.module.css';
 import vidPromo from '../assets/videos/sepprom.mp4';
 // import imgPromo from '../assets/Imagenes/promo.webp';
-// import Button from './UI/Button';
-// import { Link } from 'react-router-dom';
+import Button from './UI/Button';
+import { Link } from 'react-router-dom';
 const Promotion = () => {
   return (
     <>
       <div className={styles.promotion} data-aos='zoom-in-up'>
         <video src={vidPromo} controls='controls' />
+        <Link to='/contact'>
+          <Button title='Conoce que incluye' theme='cardButton' />
+        </Link>
       </div>
     </>
   );
