@@ -5,6 +5,11 @@
   background-color: #814f98;
 }
 
+.promotion video {
+  width: 100%;
+  justify-content: center;
+}
+
 .promotion img {
   width: 50%;
 }
