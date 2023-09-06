@@ -1,9 +1,9 @@
-import Button from "../components/UI/Button";
-import styles from "../styles/Contact.module.css";
-import { useEffect } from "react";
+import Button from '../components/UI/Button';
+import styles from '../styles/Contact.module.css';
+import { useEffect } from 'react';
 const Contact = () => {
   useEffect(() => {
-    window.scrollTo({ top: 0, left: 0, behavior: "smooth" });
+    window.scrollTo({ top: 0, left: 0, behavior: 'smooth' });
   }, []);
 
   return (
@@ -11,18 +11,18 @@ const Contact = () => {
       <div className={styles.contact}>
         <div
           className={styles.banner}
-          data-aos="fade-up"
-          data-aos-anchor-placement="top-bottom"
+          data-aos='fade-up'
+          data-aos-anchor-placement='top-bottom'
         >
-          <h2 style={{ color: "white" }}>MaraSpa</h2>
+          <h2 style={{ color: 'white' }}>MaraSpa</h2>
           <h1>Contacto</h1>
           <p>Estamos listos para atenderlo</p>
         </div>
         <div className={styles.infoDiv}>
           <div
             className={styles.infoText}
-            data-aos="fade-left"
-            data-aos-anchor-placement="top-bottom"
+            data-aos='fade-left'
+            data-aos-anchor-placement='top-bottom'
           >
             <h3>Tienes alguna duda?</h3>
             <h2>Contactanos!</h2>
@@ -40,32 +40,39 @@ const Contact = () => {
               se merece!
             </p>
             <div className={styles.infoIcons}>
-              <p>
+              <a
+                href='https://www.google.com/maps/place/Mara+Spa,+Centro+Comercial+Plaza+Lin
+              ares,+piso+2,+local+22+Via+a,+Llano+Grande,+Rionegro,+Antioquia/@6
+              .1436811,-75.3792711,14z/data=!4m6!3m5!1s0
+              x8e469ec5111fd8e7:0x7d4badb99c36dbc5!
+              8m2!3d6.1323326!4d-75.4015116!16s%2Fg%2F11g8vctl5q?hl=en&gl=CO'
+                target='_blank'
+              >
                 Centro Comercial Plaza Linares, piso 2, local 22 Via a, Llano
                 Grande, Rionegro, Antioquia
-              </p>
+              </a>
               <p>maraspa1025@gmail.com</p>
               <p>Horario de atención: 7:30AM a 5:00 PM</p>
               <a
-                href="https://api.whatsapp.com/send/?phone=573135630771&text&type=phone_number&app_absent=0"
-                target="_blank"
-                rel="noreferrer"
+                href='https://api.whatsapp.com/send/?phone=573135630771&text&type=phone_number&app_absent=0'
+                target='_blank'
+                rel='noreferrer'
               >
-                <Button title="Número para contactarnos" theme="priceButton" />
+                <Button title='Número para contactarnos' theme='priceButton' />
               </a>
             </div>
           </div>
           <div
             className={styles.map}
-            data-aos="fade-right"
-            data-aos-anchor-placement="top-bottom"
+            data-aos='fade-right'
+            data-aos-anchor-placement='top-bottom'
           >
-            <iframe
+            {/* <iframe
               src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15867.951445425622!2d-75.4015116!3d6.1323326!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e469ec5111fd8e7%3A0x7d4badb99c36dbc5!2sMara%20Spa!5e0!3m2!1sen!2sco!4v1688134309954!5m2!1sen!2sco"
               style={{ border: 0 }}
               loading="lazy"
               title="Google Maps para referencia MaraSpa en pág contacto"
-            ></iframe>
+            ></iframe> */}
           </div>
         </div>
       </div>
