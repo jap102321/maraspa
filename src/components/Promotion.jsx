@@ -9,7 +9,7 @@ const Promotion = () => {
       <div className={styles.promotion} data-aos='zoom-in-up'>
         <video src={vidPromo} controls='controls' />
         <Link to='/contact'>
-          <Button title='Conoce que incluye' theme='cardButton' />
+          <Button title='Conoce que incluye' theme='cardButton'/>
         </Link>
       </div>
     </>
