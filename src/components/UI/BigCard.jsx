@@ -1,6 +1,6 @@
-import { Link } from "react-router-dom";
-import styles from "./BigCard.module.css";
-import Button from "./Button";
+import { Link } from 'react-router-dom';
+import styles from './BigCard.module.css';
+import Button from './Button';
 const BigCard = ({ bg, title, desc, btnDesc, btnUrl }) => {
   return (
     <>
@@ -9,7 +9,7 @@ const BigCard = ({ bg, title, desc, btnDesc, btnUrl }) => {
           <h5>{title}</h5>
           <p>{desc}</p>
           <Link to={btnUrl}>
-            <Button title={btnDesc} theme="cardButton" />
+            <Button title={btnDesc} theme='cardButton' />
           </Link>
         </div>
       </div>
