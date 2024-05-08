@@ -65,7 +65,7 @@
     font-size: 15px;
   }
   .promotion img {
-    display: none;
+    width: 60%;
   }
   .otherInfo {
     gap: 0;

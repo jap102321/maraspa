@@ -1,6 +1,6 @@
 import styles from '../styles/Promotion.module.css';
 // import vidPromo from '../assets/videos/sepprom.mp4';
-import imgPromo from '../assets/Imagenes/promo.jpeg';
+import imgPromo from '../assets/Imagenes/promo.jpg';
 import Button from './UI/Button';
 import { Link } from 'react-router-dom';
 const Promotion = () => {
